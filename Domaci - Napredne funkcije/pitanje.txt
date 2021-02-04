@@ -1,0 +1,23 @@
+Poslednji zadatak Pitanje 4:
+
+		var fullname = 'John Doe';
+		var obj = {
+		   fullname: 'Colin Ihrig',
+		   prop: {
+		      fullname: 'Aurelio De Rosa',
+		      getFullname: function() {
+		         return this.fullname;
+		      }
+		   }
+		};
+
+		console.log(obj.prop.getFullname());
+
+		var test = obj.prop.getFullname;
+
+		console.log(test());
+
+
+a) Zasto je test jednak john doe kada getfullname nije u tom skoupu?
+    Koja je fora?
+b)Kako test uopste na ovaj nacin moze da postane fukncija?
